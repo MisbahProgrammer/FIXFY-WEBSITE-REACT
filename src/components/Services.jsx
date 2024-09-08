@@ -9,7 +9,7 @@ function Services() {
       <h4 className="text-center text-2xl">
         Choose from our wide range of services
       </h4>
-      <div>
+      <div className="mt-10">
        <Types/>
       </div>
     </>
