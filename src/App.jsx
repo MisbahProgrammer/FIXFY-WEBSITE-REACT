@@ -3,6 +3,7 @@ import Header from './components/header'
 import Landing from './components/Landing'
 import Seasonal from './components/Seasonal-Maintenance/Seasonal'
 import Services from './components/Services'
+import Why from './components/Why'
 function App() {
   
   return (
@@ -11,6 +12,7 @@ function App() {
     <Landing/>
     <Services/>
     <Seasonal/>
+    <Why/>
     </>
   )
 }
