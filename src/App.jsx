@@ -1,4 +1,5 @@
 import './App.css'
+import Complain from './components/Complain'
 import Header from './components/header'
 import Landing from './components/Landing'
 import Seasonal from './components/Seasonal-Maintenance/Seasonal'
@@ -13,6 +14,7 @@ function App() {
     <Services/>
     <Seasonal/>
     <Why/>
+    <Complain/>
     </>
   )
 }
