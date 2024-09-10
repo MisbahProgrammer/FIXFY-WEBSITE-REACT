@@ -1,5 +1,6 @@
 import './App.css'
 import Complain from './components/Complain'
+import Copyright from './components/copyright'
 import Footer from './components/footer'
 import Header from './components/header'
 import Landing from './components/Landing'
@@ -17,6 +18,7 @@ function App() {
     <Why/>
     <Complain/>
     <Footer/>
+    <Copyright/>
     </>
   )
 }
