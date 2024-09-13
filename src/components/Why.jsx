@@ -2,13 +2,13 @@ import React from 'react'
 
 function Why() {
   return (
-    <div>
+    <div className='overflow-hidden  '>
         <h2 className='text-center text-3xl font-extrabold text-cyan-600 my-5'>Why You Choose Us?</h2>
-        <div className='flex w-full justify-center'>
-            <div className='w-2/4 p-6'>
+        <div className='flex w-full md:justify-center flex-col md:flex-row'>
+            <div className='md:w-2/4 md:p-6 text-center'>
                 <img src="maintenance1.webp" alt="" className='rounded-lg'/>
             </div>
-            <div className='w-2/5 p-8 '>
+            <div className='md:w-2/5 md:p-8 flex flex-col md:inline'>
                 <span className='flex items-center p-2 gap-4 mb-1'><i class="fa-solid fa-square-check text-4xl text-cyan-600"></i><p className='text-xl'>Our team of highly qualified technicians delivers exceptional service and results.</p></span>
                 <span className='flex items-center p-2 gap-4 mb-1' ><i class="fa-regular fa-clock text-4xl text-cyan-600"></i><p className='text-xl'>We understand your time is valuable. Book your appointment today and enjoy fast, reliable service.</p></span>
                 <span className='flex items-center p-2 gap-4 mb-1'><i class="fa-solid fa-headset text-4xl text-cyan-600"></i><p className='text-xl'>We're always here to help. Contact our friendly customer support team for assistance anytime.</p></span>
