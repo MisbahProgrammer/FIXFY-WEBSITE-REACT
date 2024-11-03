@@ -4,12 +4,12 @@ function header() {
   return (
     <>
     <div className="flex items-center justify-between w-full border-b py-2 md:justify-around">
-  <div className="hidden md:flex items-center md:w-1/4 md:gap-6 md:p-1 text-xl">
-    <a className="cursor-pointer w-24 p-2" href="#">Why Fixfy</a>
-    <a className="cursor-pointer w-24 p-2" href="#">Contact us</a>
+  <div className="hidden md:flex items-center md:w-[25%] md:gap-6 md:p-1 text-xl">
+    <a className="cursor-pointer w-32 p-2" href="#">Why Fixfy</a>
+    <a className="cursor-pointer w-32 p-2" href="#">Contact us</a>
   </div>
   <div className='p-3'> 
-    <img src="fixfy-logo.png" alt="" width="50px" height="50px" className="cursor-pointer" />
+    <img src="fixfy-logo.png" alt="" width="70px" height="70px" className="cursor-pointer" />
   </div>
   <div className="hidden md:flex">
     <Buttons />
