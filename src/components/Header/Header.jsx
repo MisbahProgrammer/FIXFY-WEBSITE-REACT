@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttons from './Button/buttons'
+import Buttons from '../Button/Buttons.jsx'
 function header() {
   return (
     <>

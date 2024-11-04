@@ -1,5 +1,5 @@
 import React from "react";
-import Types from "./Maintenance-Services/Types.jsx"
+import Types from "../Maintenance-Services/Types.jsx"
 function Services() {
   return (
     <>
