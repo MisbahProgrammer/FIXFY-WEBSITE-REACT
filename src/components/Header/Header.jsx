@@ -5,8 +5,8 @@ function header() {
     <>
     <div className="flex items-center justify-between w-full border-b py-2 md:justify-around">
   <div className="hidden md:flex items-center md:w-[25%] md:gap-6 md:p-1 text-xl">
-    <a className="cursor-pointer w-32 p-2" href="#">Why Fixfy</a>
-    <a className="cursor-pointer w-32 p-2" href="#">Contact us</a>
+    <a className="cursor-pointer w-32 p-2 hover:font-bold hover:text-cyan-600" href="#">Why Fixfy</a>
+    <a className="cursor-pointer w-32 p-2 hover:font-bold hover:text-cyan-600" href="#">Contact us</a>
   </div>
   <div className='p-3'> 
     <img src="fixfy-logo.png" alt="" width="70px" height="70px" className="cursor-pointer" />
@@ -20,18 +20,19 @@ function header() {
 </div>
     {/* -----------lower header----------- */}
     <div className='hidden md:flex md:items-center md:justify-center md:py-4 md:px-4 md:border-b md:gap-2'>
-        <select name="Home Maintenance" id="">
+        <select name="Home Maintenance" id="" className='text-xl'>
             <option value="Home Maintenance">Home Maintenance</option>
             <option value="Plumbing">Plumbing</option>
             <option value="Electrician">Electrician</option>
+            <option value="Electrician">Pool Maintenance</option>
             <option value="Painter">Painter</option>
         </select>
-        <select name="Building Maintenance" id="">
+        <select name="Building Maintenance" id="" className='text-xl'>
             <option value="Remodling">Remodling</option>
             <option value="Roofing">Roofing</option>
             <option value="Construction">Construction</option>
         </select>
-        <select name="Emergency Service" id="">
+        <select name="Emergency Service" id="" className='text-xl'>
             <option value="Emergency Service">Emergency Service</option>
             <option value="Support">24/7 Plumbing</option>
             <option value="Electrical">Electrical Emergencies</option>
