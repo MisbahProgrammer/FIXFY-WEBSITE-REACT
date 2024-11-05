@@ -2,7 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full bg-cyan-600 flex flex-wrap  md:flex-row md:justify-between p-5 overflow-hidden'>
+    <div className='w-full  bg-cyan-600 flex flex-wrap  md:flex-row md:justify-between p-5 overflow-hidden'>
+        <div className='w-[80%] flex flex-wrap mx-auto md:gap-24'>
         <div className='flex flex-col p-5'>
             <h3 className='md:text-2xl font-bold text-white'>Services</h3>
             <ul className='flex flex-row flex-wrap md:flex-col text-white md:text-xl gap-2 '>
@@ -52,6 +53,7 @@ function Footer() {
             <p className='md:text-xl text-white'>Just for New Product Updates</p>
             <input type="email" required className='p-3 rounded-lg mt-2' placeholder='Email'/>
             <input type="Submit" value="Subscribe" className='py-3 px-4 border-white bg-slate-400 rounded-lg mt-3 cursor-pointer text-white font-bold'/>
+        </div>
         </div>
     </div>
   )

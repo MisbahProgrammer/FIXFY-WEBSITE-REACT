@@ -20,19 +20,19 @@ function header() {
 </div>
     {/* -----------lower header----------- */}
     <div className='hidden md:flex md:items-center md:justify-center md:py-4 md:px-4 md:border-b md:gap-2'>
-        <select name="Home Maintenance" id="" className='text-xl'>
+        <select name="Home Maintenance" id="" className='text-xl cursor-pointer'>
             <option value="Home Maintenance">Home Maintenance</option>
             <option value="Plumbing">Plumbing</option>
             <option value="Electrician">Electrician</option>
             <option value="Electrician">Pool Maintenance</option>
             <option value="Painter">Painter</option>
         </select>
-        <select name="Building Maintenance" id="" className='text-xl'>
+        <select name="Building Maintenance" id="" className='text-xl cursor-pointer'>
             <option value="Remodling">Remodling</option>
             <option value="Roofing">Roofing</option>
             <option value="Construction">Construction</option>
         </select>
-        <select name="Emergency Service" id="" className='text-xl'>
+        <select name="Emergency Service" id="" className='text-xl cursor-pointer'>
             <option value="Emergency Service">Emergency Service</option>
             <option value="Support">24/7 Plumbing</option>
             <option value="Electrical">Electrical Emergencies</option>

@@ -12,7 +12,7 @@ function Landing() {
     <p className="text-2xl sm:text-3xl md:text-5xl roboto my-4">
       Expert Maintenance, Peace of Mind
     </p>
-    <p className="text-xl md:text-2xl text-cyan-600 my-2">
+    <p className="text-xl md:text-2xl text-cyan-600 my-2 cursor-pointer">
       Need a quick fix or routine maintenance?
     </p>
     <button className="text-lg md:text-2xl font-bold border-2 p-3 rounded-lg bg-cyan-600 text-white hover:bg-white hover:text-black my-4">
