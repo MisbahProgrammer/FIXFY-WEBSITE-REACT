@@ -3,7 +3,7 @@ import React from 'react'
 function Why() {
   return (
     <div className='overflow-hidden  '>
-        <h2 className='text-center text-6xl font-extrabold text-cyan-600 my-5'>Why You Choose Us?</h2>
+        <h2 className='text-center text-6xl font-extrabold text-cyan-600 my-20'>Why You Choose Us?</h2>
         <div className='flex w-full md:justify-center flex-col md:flex-row'>
             <div className='md:w-[40%] md:p-6 text-center'>
                 <img src="maintenance1.webp" alt="" className='rounded-lg'/>

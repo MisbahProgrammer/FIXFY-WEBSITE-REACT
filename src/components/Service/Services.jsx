@@ -3,7 +3,7 @@ import Types from "../Maintenance-Services/Types.jsx"
 function Services() {
   return (
     <>
-      <h2 className="text-center text-2xl sm:text-4xl md:text-7xl text-cyan-500 py-3 my-4 font-extrabold">
+      <h2 className="text-center text-2xl sm:text-4xl md:text-7xl text-cyan-500 py-3 my-4 font-extrabold md:mt-10">
         Services
       </h2>
       <h4 className="text-center text-4xl">

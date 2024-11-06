@@ -13,9 +13,9 @@ function Landing() {
       Expert Maintenance, Peace of Mind
     </p>
     <p className="text-xl md:text-2xl text-cyan-600 my-2 cursor-pointer">
-      Need a quick fix or routine maintenance?
+     <a href="" className='hover:text-cyan-800'>Need a quick fix or routine maintenance?</a>
     </p>
-    <button className="text-lg md:text-2xl font-bold border-2 p-3 rounded-lg bg-cyan-600 text-white hover:bg-white hover:text-black my-4">
+    <button className="text-lg md:text-2xl font-bold border-2 p-3 rounded-lg bg-cyan-600 text-white hover:bg-white hover:text-black my-4 hover:transition hover:ease-in">
       Schedule Maintenance
     </button>
   </div>

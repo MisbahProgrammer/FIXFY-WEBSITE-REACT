@@ -52,7 +52,7 @@ function Footer() {
             <h3 className='md:text-2xl font-bold text-white my-5'>New Letter</h3>
             <p className='md:text-xl text-white'>Just for New Product Updates</p>
             <input type="email" required className='p-3 rounded-lg mt-2' placeholder='Email'/>
-            <input type="Submit" value="Subscribe" className='py-3 px-4 border-white bg-slate-400 rounded-lg mt-3 cursor-pointer text-white font-bold'/>
+            <input type="Submit" value="Subscribe" className='py-3 px-4 border-white bg-cyan-800 rounded-lg mt-3 cursor-pointer text-white font-bold hover:bg-slate-500'/>
         </div>
         </div>
     </div>
